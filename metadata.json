@@ -1,0 +1,5 @@
+{
+  "name": "EPLQ: Efficient Privacy-Preserving Location-Based Query",
+  "description": "A privacy-preserving location-based query solution aimed for spatial range queries using predicate-only encryption.",
+  "requestFramePermissions": []
+}
