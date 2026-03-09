@@ -35,12 +35,12 @@ jobs:
       - name: Build
         run: npm run build
         env:
-          VITE_FIREBASE_API_KEY: ${{ AIzaSyBcCv8bYzotdLQPxUQ4p7eiEAHrw1dGMzk }}
-          VITE_FIREBASE_AUTH_DOMAIN: ${{ eplq-73fbd.firebaseapp.com }}
-          VITE_FIREBASE_PROJECT_ID: ${{ eplq-73fbd }}
-          VITE_FIREBASE_STORAGE_BUCKET: ${{ eplq-73fbd.firebasestorage.app }}
-          VITE_FIREBASE_MESSAGING_SENDER_ID: ${{ 881982545020 }}
-          VITE_FIREBASE_APP_ID: ${{ 1:881982545020:web:34cb1fea65fdb54233bdf9 }}
+          VITE_FIREBASE_API_KEY: "AIzaSyBcCv8bYzotdLQPxUQ4p7eiEAHrw1dGMzk"
+          VITE_FIREBASE_AUTH_DOMAIN: "eplq-73fbd.firebaseapp.com"
+          VITE_FIREBASE_PROJECT_ID: "eplq-73fbd"
+          VITE_FIREBASE_STORAGE_BUCKET: "eplq-73fbd.firebasestorage.app"
+          VITE_FIREBASE_MESSAGING_SENDER_ID: "881982545020"
+          VITE_FIREBASE_APP_ID: "1:881982545020:web:34cb1fea65fdb54233bdf9"
           VITE_ENCRYPTION_KEY: ${{ secrets.VITE_ENCRYPTION_KEY }}
           
       - name: Setup Pages
